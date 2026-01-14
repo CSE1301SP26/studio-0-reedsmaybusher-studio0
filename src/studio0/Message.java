@@ -3,6 +3,6 @@ package studio0;
 public class Message {
 
 	public static void main(String args[]) {
-		System.out.println(" Hello from Isaac in studio 0. ");
+		System.out.println(" Hello Studio 0!");
 	}   
 }
