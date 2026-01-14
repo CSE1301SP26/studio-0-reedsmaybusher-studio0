@@ -9,7 +9,7 @@ public class BurritoBudget {
 		int burritosEatenWeek4 = 1;
 		
 		int totalBurritos = burritosEatenWeek1 + burritosEatenWeek2 + burritosEatenWeek3 + burritosEatenWeek4;
-		double averageWeeklyBurritos = totalBurritos / 4;
+		double averageWeeklyBurritos = totalBurritos / 4.000; //use 4.000 to get an unrounded double result, rounds to lowest accuracy otherwise
 		
 		double burritoPrice = 7.50;
 		double averageWeeklyPrice = averageWeeklyBurritos * burritoPrice;
